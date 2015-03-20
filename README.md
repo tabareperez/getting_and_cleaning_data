@@ -20,8 +20,8 @@ The syntax for downloading the file must be:
 
 without **method = "curl"* parameter.
 
-See the source fiel of the scripts to know how the program works.
+See the source file of the scripts to know how the program works.
 
 Thanks!!
-Tabare Perez
-March 2015
+
+Tabare Perez, March 2015
