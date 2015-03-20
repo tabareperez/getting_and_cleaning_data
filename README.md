@@ -20,7 +20,8 @@ The syntax for downloading the file must be:
 
 without **method = "curl"* parameter.
 
-See the source file of the scripts to know how the program works.
+See the documentation on the script **run_analysis.R** to know how the
+program works.
 
 Thanks!!
 
