@@ -1,4 +1,7 @@
-# Code book for the **Coursera Getting and Cleaning Data** course final project.
+# Code book for the Coursera Getting and Cleaning Data course final project.
+
+Tabare Perez
+tabare.perez@gmail.com
 
 ##Data Set Information
 
