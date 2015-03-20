@@ -1,5 +1,6 @@
 # Code book for the **Coursera Getting and Cleaning Data** course final project.
-##Data Set Information:
+
+##Data Set Information
 
 Variable description:
 
@@ -37,66 +38,54 @@ cutoff frequency was used. From each window, a vector of features was
 obtained by calculating variables from the time and frequency
 domain. See 'features_info.txt' for more details.
 
-For each record it is provided:
-======================================
+### For each record it is provided:
 
-- Triaxial acceleration from the accelerometer (total acceleration)
-- and the estimated body acceleration.  Triaxial Angular velocity from
-- the gyroscope.  A 561-feature vector with time and frequency domain
-- variables.  Its activity label.  An identifier of the subject who
-- carried out the experiment.
+* Triaxial acceleration from the accelerometer (total acceleration)
+  and the estimated body acceleration.
+* Triaxial Angular velocity from the gyroscope.
+* A 561-feature vector with time and frequency domain variables.
+* Its activity label.
+* An identifier of the subject who carried out the experiment.
 
-The dataset includes the following files:
-=========================================
+### The dataset includes the following files:
 
-- 'README.txt'
-
-- 'features_info.txt': Shows information about the variables used on
+* 'README.txt'
+* 'features_info.txt': Shows information about the variables used on
   the feature vector.
+* 'features.txt': List of all features.
 
-- 'features.txt': List of all features.
-
-- 'activity_labels.txt': Links the class labels with their activity
-  name.
-
-- 'train/X_train.txt': Training set.
-
-- 'train/y_train.txt': Training labels.
-
-- 'test/X_test.txt': Test set.
-
-- 'test/y_test.txt': Test labels.
+* 'activity_labels.txt': Links the class labels with their activity
+   name.
+* 'train/X_train.txt': Training set.
+* 'train/y_train.txt': Training labels.
+* 'test/X_test.txt': Test set.
+* 'test/y_test.txt': Test labels.
 
 The following files are available for the train and test data. Their
 descriptions are equivalent.
 
-- 'train/subject_train.txt': Each row identifies the subject who
+* 'train/subject_train.txt': Each row identifies the subject who
   performed the activity for each window sample. Its range is from 1
   to 30.
-
-- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration
+* 'train/Inertial Signals/total_acc_x_train.txt': The acceleration
   signal from the smartphone accelerometer X axis in standard gravity
   units 'g'. Every row shows a 128 element vector. The same
   description applies for the 'total_acc_x_train.txt' and
   'total_acc_z_train.txt' files for the Y and Z axis.
-
-- 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration
+* 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration
   signal obtained by subtracting the gravity from the total
   acceleration.
-
-- 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity
+* 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity
   vector measured by the gyroscope for each window sample. The units
   are radians/second.
 
-Notes: 
-======
-- Features are normalized and bounded within [-1,1].
-- Each feature vector is a row on the text file.
+### Notes: 
+* Features are normalized and bounded within [-1,1].
+* Each feature vector is a row on the text file.
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
-License:
-========
+## License:
 
 Use of this dataset in publications must be acknowledged by
 referencing the following publication [1]
@@ -114,287 +103,79 @@ use or misuse. Any commercial use is prohibited.
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide
 Anguita. November 2012.
 
-Variable description of tidy.txt file:
-
-Unique identifier of the subject, ranging from 1 to 30
-
-activity
---------
-
-Activity label
-
-1. Walking 
-
-2. Walking Upstairs
-
-3. Walking Downstairs
-
-4. Sitting 
-
-5. Standing 
-
-6. Laying 
-
-tBodyAcc.Mean.X
-----------------
-Body Linear Acceleration signal Mean in the X dimension
-
-tBodyAcc.Mean.Y
-----------------
-Body Linear Acceleration signal Mean in the Y dimension
-
-tBodyAcc.Mean.Z
-----------------
-Body Linear Acceleration signal Mean in the Z dimension
-
-tBodyAcc.StdDev.X
-------------------
-Body Linear Acceleration signal Standard Deviation in the X dimension
-
-tBodyAcc.StdDev.Y
-------------------
-Body Linear Acceleration signal Standard Deviation in the Y dimension
-
-tBodyAcc.StdDev.Z
-------------------
-Body Linear Acceleration signal Standard Deviation in the Z dimension
-
-tGravityAcc.Mean.X
------------------------
-Gravity Linear Acceleration signal Mean in the X dimension
-
-tGravityAcc.Mean.Y
-----------------------
-Gravity Linear Acceleration signal Mean in the Y dimension
-
-tGravityAcc.Mean.Z
-------------------------
-Gravity Linear Acceleration signal Mean in the Z dimension
-
-tGravityAcc.StdDev.X
---------------------------
-Gravity Linear Acceleration signal Standard Deviation in the X dimension
-
-tGravityAcc.StdDev.Y
-------------------------
-Gravity Linear Acceleration signal Standard Deviation in the Y dimension
-
-tGravityAcc.StdDev.Z
--------------------------
-Gravity Linear Acceleration signal Standard Deviation in the Z dimension
-
-tBodyAccJerk.Mean.X
------------------------
-Body Acceleration Jerk signal Mean in the X dimension
-
-tBodyAccJerk.Mean.Y
------------------------
-Body Acceleration Jerk signal Mean in the Y dimension
-
-tBodyAccJerk.Mean.Z
------------------------
-Body Acceleration Jerk signal Mean in the Z dimension
-
-tBodyAccJerk.StdDev.X
------------------------
-Body Acceleration Jerk signal Standard Deviation in the X dimension
-
-tBodyAccJerk.StdDev.Y
------------------------
-Body Acceleration Jerk signal Standard Deviation in the Y dimension
-
-tBodyAccJerk.StdDev.Z
------------------------
-Body Acceleration Jerk signal Standard Deviation in the Z dimension
-
-tBodyGyro.Mean.X
-----------------
-Body Linear Gyroscope signal Mean in the X dimension
-
-tBodyGyro.Mean.Y
-----------------
-Body Linear Gyroscope signal Mean in the Y dimension
-
-tBodyGyro.Mean.Z
-----------------
-Body Linear Gyroscope signal Mean in the Z dimension
-
-tBodyGyro.StdDev.X
-------------------
-Body Linear Gyroscope signal Standard Deviation in the X dimension
-
-tBodyGyro.StdDev.Y
-------------------
-Body Linear Gyroscope signal Standard Deviation in the Y dimension
-
-tBodyGyro.StdDev.Z
-------------------
-Body Linear Gyroscope signal Standard Deviation in the Z dimension
-
-tBodyGyroJerk.Mean.X
------------------------
-Body Acceleration Jerk signal Mean in the X dimension
-
-tBodyGyroJerk.Mean.Y
------------------------
-Body Gyroscope Jerk signal Mean in the Y dimension
-
-tBodyGyroJerk.Mean.Z
------------------------
-Body Gyroscope Jerk signal Mean in the Z dimension
-
-tBodyGyroJerk.StdDev.X
------------------------
-Body Gyroscope Jerk signal Standard Deviation in the X dimension
-
-tBodyGyroJerk.StdDev.Y
------------------------
-Body Gyroscope Jerk signal Standard Deviation in the Y dimension
-
-tBodyGyroJerk.StdDev.Z
------------------------
-Body Gyroscope Jerk signal Standard Deviation in the Z dimension
-
-tBodyAccMagnitude.Mean
------------------------
-Body Acceleration Magnitude using the Euclidean norm, Mean
-
-tBodyAccMagnitude.StdDev
----------------------------
-Body Acceleration Magnitude using the Euclidean norm, Standard Deviation
-
-tGravityAccMagnitude.Mean
----------------------------
-Gravity Acceleration Magnitude using the Euclidean norm, Mean
-
-tGravityAccMagnitude.StdDev
------------------------------
-Gravity Acceleration Magnitude using the Euclidean norm, Standard Deviation
-
-tBodyAccJerkMagnitude.Mean
-------------------------------
-Body Acceleration Jerk signal Magnitude using the Euclidean norm, Mean
-
-tBodyAccJerkMagnitude.StdDev
--------------------------------
-Body Acceleration Jerk signal Magnitude using the Euclidean norm, Standard Deviation
-
-tBodyGyroMagnitude.Mean
------------------------
-Body Gyroscope Magnitude using the Euclidean norm, Mean
-
-tBodyGyroMagnitude.StdDev
----------------------------
-Body Gyroscope Magnitude using the Euclidean norm, Standard Deviation
-
-tBodyGyroJerkMagnitude.Mean
-------------------------------
-Body Gyroscope Jerk signal Magnitude using the Euclidean norm, Mean
-
-tBodyGyroJerkMagnitude.StdDev
--------------------------------
-Body Gyroscope Jerk signal Magnitude using the Euclidean norm, Standard Deviation
-
-fBodyAcc.Mean.X
-----------------
-Body Linear Acceleration frequency domain signal Mean in the X dimension
-
-fBodyAcc.Mean.Y
-----------------
-Body Linear Acceleration frequency domain signal Mean in the Y dimension
-
-fBodyAcc.Mean.Z
-----------------
-Body Linear Acceleration frequency domain signal Mean in the Z dimension
-
-fBodyAcc.StdDev.X
-------------------
-Body Linear Acceleration frequency domain signal Standard Deviation in the X dimension
-
-fBodyAcc.StdDev.Y
-------------------
-Body Linear Acceleration frequency domain signal Standard Deviation in the Y dimension
-
-fBodyAcc.StdDev.Z
-------------------
-Body Linear Acceleration frequency domain signal Standard Deviation in the Z dimension
-
-fBodyAccJerk.Mean.X
------------------------
-Body Acceleration Jerk frequency domain signal Mean in the X dimension
-
-fBodyAccJerk.Mean.Y
------------------------
-Body Acceleration Jerk frequency domain signal Mean in the Y dimension
-
-fBodyAccJerk.Mean.Z
------------------------
-Body Acceleration Jerk frequency domain signal Mean in the Z dimension
-
-fBodyAccJerk.StdDev.X
------------------------
-Body Acceleration Jerk frequency domain signal Standard Deviation in the X dimension
-
-fBodyAccJerk.StdDev.Y
------------------------
-Body Acceleration Jerk frequency domain signal Standard Deviation in the Y dimension
-
-fBodyAccJerk.StdDev.Z
------------------------
-Body Acceleration Jerk frequency domain signal Standard Deviation in the Z dimension
-
-fBodyGyro.Mean.X
-----------------
-Body Linear Gyroscope frequency domain signal Mean in the X dimension
-
-fBodyGyro.Mean.Y
-----------------
-Body Linear Gyroscope frequency domain signal Mean in the Y dimension
-
-fBodyGyro.Mean.Z
-----------------
-Body Linear Gyroscope frequency domain signal Mean in the Z dimension
-
-fBodyGyro.StdDev.X
-------------------
-Body Linear Gyroscope frequency domain signal Standard Deviation in the X dimension
-
-fBodyGyro.StdDev.Y
-------------------
-Body Linear Gyroscope frequency domain signal Standard Deviation in the Y dimension
-
-fBodyGyro.StdDev.Z
-------------------
-Body Linear Gyroscope frequency domain signal Standard Deviation in the Z dimension
-
-fBodyAccMagnitude.Mean
------------------------
-Body Acceleration frequency domain signal Magnitude using the Euclidean norm, Mean
-
-fBodyAccMagnitude.StdDev
----------------------------
-Body Acceleration frequency domain signal Magnitude using the Euclidean norm, Standard Deviation
-
-fBodyAccJerkMagnitude.Mean
-------------------------------
-Body Acceleration Jerk frequency domain signal Magnitude using the Euclidean norm, Mean
-
-fBodyAccJerkMagnitude.StdDev
--------------------------------
-Body Acceleration Jerk frequency domain signal Magnitude using the Euclidean norm, Standard Deviation
-
-fBodyGyroMagnitude.Mean
------------------------
-Body Gyroscope frequency domain signal Magnitude using the Euclidean norm, Mean
-
-fBodyGyroMagnitude.StdDev
----------------------------
-Body Gyroscope frequency domain signal Magnitude using the Euclidean norm, Standard Deviation
-
-fBodyGyroJerkMagnitude.Mean
-------------------------------
-Body Gyroscope Jerk frequency domain signal Magnitude using the Euclidean norm, Mean
-
-fBodyGyroJerkMagnitude.StdDev
--------------------------------
-Body Gyroscope Jerk frequency domain signal Magnitude using the Euclidean norm, Standard Deviation
+## Variable description of **tidy.txt** file:
+
+* subject : Unique identifier of the subject, ranging from 1 to 30
+* activity : Activity label with the following possible values:
+  1. Walking 
+  2. Walking Upstairs
+  3. Walking Downstairs
+  4. Sitting 
+  5. Standing 
+  6. Laying 
+* tbodyacc-mean-x : Body Linear acceleration signal mean in the x dimension
+* tbodyacc-mean-y : Body Linear acceleration signal mean in the y dimension
+* tbodyacc-mean-z : Body Linear acceleration signal mean in the z dimension
+* tbodyacc-std-x : Body Linear acceleration signal Standard Deviation in the x dimension
+* tbodyacc-std-y : Body Linear acceleration signal Standard Deviation in the y dimension
+* tbodyacc-std-z : Body Linear acceleration signal Standard Deviation in the z dimension
+* tgravityacc-mean-x : Gravity Linear acceleration signal mean in the x dimension
+* tgravityacc-mean-y : Gravity Linear acceleration signal mean in the y dimension
+* tgravityacc-mean-z : Gravity Linear acceleration signal mean in the z dimension
+* tgravityacc-std-x : Gravity Linear acceleration signal Standard Deviation in the x dimension
+* tgravityacc-std-y : Gravity Linear acceleration signal Standard Deviation in the y dimension
+* tgravityacc-std-z : Gravity Linear acceleration signal Standard Deviation in the z dimension
+* tbodyaccjerk-mean-x : Body acceleration jerk signal mean in the x dimension
+* tbodyaccjerk-mean-y : Body acceleration jerk signal mean in the y dimension
+* tbodyaccjerk-mean-z : Body acceleration jerk signal mean in the z dimension
+* tbodyaccjerk-std-x : Body acceleration jerk signal Standard Deviation in the x dimension
+* tbodyaccjerk-std-y : Body acceleration jerk signal Standard Deviation in the y dimension
+* tbodyaccjerk-std-z : Body acceleration jerk signal Standard Deviation in the z dimension
+* tbodygyro-mean-x : Body Linear gyroscope signal mean in the x dimension
+* tbodygyro-mean-y : Body Linear gyroscope signal mean in the y dimension
+* tbodygyro-mean-z : Body Linear gyroscope signal mean in the z dimension
+* tbodygyro-std-x : Body Linear gyroscope signal Standard Deviation in the x dimension
+* tbodygyro-std-y : Body Linear gyroscope signal Standard Deviation in the y dimension
+* tbodygyro-std-z : Body Linear gyroscope signal Standard Deviation in the z dimension
+* tbodygyrojerk-mean-x : Body acceleration jerk signal mean in the x dimension
+* tbodygyrojerk-mean-y : Body gyroscope jerk signal mean in the y dimension
+* tbodygyrojerk-mean-z : Body gyroscope jerk signal mean in the z dimension
+* tbodygyrojerk-std-x : Body gyroscope jerk signal Standard Deviation in the x dimension
+* tbodygyrojerk-std-y : Body gyroscope jerk signal Standard Deviation in the y dimension
+* tbodygyrojerk-std-z : Body gyroscope jerk signal Standard Deviation in the z dimension
+* tbodyaccmag-mean : Body acceleration magnitude using the Euclidean norm, mean
+* tbodyaccmag-std : Body acceleration magnitude using the Euclidean norm, Standard Deviation
+* tgravityaccmag-mean : Gravity acceleration magnitude using the Euclidean norm, mean
+* tgravityaccmag-std : Gravity acceleration magnitude using the Euclidean norm, Standard Deviation
+* tbodyaccjerkmag-mean : Body acceleration jerk signal magnitude using the Euclidean norm, mean
+* tbodyaccjerkmag-std : Body acceleration jerk signal magnitude using the Euclidean norm, Standard Deviation
+* tbodygyromag-mean : Body gyroscope magnitude using the Euclidean norm, mean
+* tbodygyromag-std : Body gyroscope magnitude using the Euclidean norm, Standard Deviation
+* tbodygyrojerkmag-mean : Body gyroscope jerk signal magnitude using the Euclidean norm, mean
+* tbodygyrojerkmag-std : Body gyroscope jerk signal magnitude using the Euclidean norm, Standard Deviation
+* fbodyacc-mean-x : Body Linear acceleration frequency domain signal mean in the x dimension
+* fbodyacc-mean-y : Body Linear acceleration frequency domain signal mean in the y dimension
+* fbodyacc-mean-z : Body Linear acceleration frequency domain signal mean in the z dimension
+* fbodyacc-std-x : Body Linear acceleration frequency domain signal Standard Deviation in the x dimension
+* fbodyacc-std-y : Body Linear acceleration frequency domain signal Standard Deviation in the y dimension
+* fbodyacc-std-z : Body Linear acceleration frequency domain signal Standard Deviation in the z dimension
+* fbodyaccjerk-mean-x : Body acceleration jerk frequency domain signal mean in the x dimension
+* fbodyaccjerk-mean-y : Body acceleration jerk frequency domain signal mean in the y dimension
+* fbodyaccjerk-mean-z : Body acceleration jerk frequency domain signal mean in the z dimension
+* fbodyaccjerk-std-x : Body acceleration jerk frequency domain signal Standard Deviation in the x dimension
+* fbodyaccjerk-std-y : Body acceleration jerk frequency domain signal Standard Deviation in the y dimension
+* fbodyaccjerk-std-z : Body acceleration jerk frequency domain signal Standard Deviation in the z dimension
+* fbodygyro-mean-x : Body Linear gyroscope frequency domain signal mean in the x dimension
+* fbodygyro-mean-y : Body Linear gyroscope frequency domain signal mean in the y dimension
+* fbodygyro-mean-z : Body Linear gyroscope frequency domain signal mean in the z dimension
+* fbodygyro-std-x : Body Linear gyroscope frequency domain signal Standard Deviation in the x dimension
+* fbodygyro-std-y : Body Linear gyroscope frequency domain signal Standard Deviation in the y dimension
+* fbodygyro-std-z : Body Linear gyroscope frequency domain signal Standard Deviation in the z dimension
+* fbodyaccmag-mean : Body acceleration frequency domain signal magnitude using the Euclidean norm, mean
+* fbodyaccmag-std : Body acceleration frequency domain signal magnitude using the Euclidean norm, Standard Deviation
+* fbodybodyaccjerkmag-mean : Body acceleration jerk frequency domain signal magnitude using the Euclidean norm, mean
+* fbodybodyaccjerkmag-std : Body acceleration jerk frequency domain signal magnitude using the Euclidean norm, Standard Deviation
+* fbodybodygyromag-mean : Body gyroscope frequency domain signal magnitude using the Euclidean norm, mean
+* fbodybodygyromag-std : Body gyroscope frequency domain signal magnitude using the Euclidean norm, Standard Deviation
+* fbodybodygyrojerkmag-mean : Body gyroscope jerk frequency domain signal magnitude using the Euclidean norm, mean
+* fbodybodygyrojerkmag-std : Body gyroscope jerk frequency domain signal magnitude using the Euclidean norm, Standard Deviation
