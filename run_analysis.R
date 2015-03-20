@@ -6,8 +6,8 @@
 # Name : Tabare Perez
 # Email: tabare.perez@gmail.com
 # City, Country : Montevideo, Uruguay
-#
-# This is the project script.
+# 
+# This is the project script. March 15 - 2015
 # 
 # Data Source : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 #
