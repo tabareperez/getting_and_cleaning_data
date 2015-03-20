@@ -1,4 +1,5 @@
-# Code book for the final project - Data Set Information:
+# Code book for the **Coursera Getting and Cleaning Data** course final project.
+##Data Set Information:
 
 Variable description:
 
